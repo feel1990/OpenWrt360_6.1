@@ -4,8 +4,8 @@
 get_sources() {
   # the checkout actions will set $HOME to other directory,
   # we need to reset some necessary git configs again.
-  git config --global user.name "OpenWrt Builder"
-  git config --global user.email "buster-openwrt@ovvo.uk"
+  git config --global user.name "OpenWrt test"
+  git config --global user.email "409301909@qq.com"
 
   git clone $BUILD_REPO --single-branch -b $GITHUB_REF_NAME openwrt
 
